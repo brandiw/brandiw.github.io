@@ -1,3 +1,23 @@
-h1{
-  color: #3368ef;
+body{
+  background-color: #ddd;
+}
+h1,
+p {
+  color: #3368ef !important;
+}
+.container {
+  background-color: #88beef;
+  min-height: 1000px;
+}
+.box{
+  background-color: black;
+  min-height: 100px;
+  margin: 20px;
+}
+.box p{
+  padding: 10px 20px 30px 20px;
+}
+.box p:hover{
+  transform: translateY(50%) rotate(90deg) scale(3);
+  transition-duration: 2s;
 }
