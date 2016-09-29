@@ -5,6 +5,9 @@ h1,
 p {
   color: #3368ef !important;
 }
+p.text-center{
+  margin-top: 20px;
+}
 .container {
   background-color: #88beef;
   min-height: 1000px;
