@@ -1,15 +1,51 @@
 body {
-  background-color: #ddd;
+  margin: 0;
+  font-family: Roboto !important;
 }
+
+/* Bootstrap default overrides */
+.container {
+  min-height: 1000px;
+  width: 100% !important;
+  margin: 0;
+  padding: 0 !important;
+}
+.navbar {
+  margin-bottom: 0 !important;
+  background-color: #a1cee7 !important;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navbar-nav li a:hover {
+  color: #3e5b7a !important;
+}
+.navbar-brand {
+  padding: 10px !important;
+}
+.btn-primary {
+  background-color: #fff !important;
+  color: #2e6da4 !important;
+}
+.btn-primary:hover {
+  background-color: #a1cee7 !important;
+  color: #fff !important;
+}
+
+/* Nav Styles */
+.brand {
+  height: 100%;
+  width: auto;
+}
+
+/* Hero/Banner Styles */
 h1.text-center.hero {
-  margin-top: 125px;
+  margin-top: 150px;
 }
 p.text-center {
-  margin-top: 20px;
-}
-.container {
-  background-color: #88beef;
-  min-height: 1000px;
+  margin-top: 25px;
 }
 .text-white {
   color: #fff;
@@ -21,7 +57,7 @@ p.text-center {
   position: relative;
   background: #5C97FF;
   overflow: hidden;
-  min-height: 400px !important;
+  min-height: 450px !important;
 }
 .opaque:before {
   content: ' ';
@@ -33,7 +69,7 @@ p.text-center {
   height: 100%;
   z-index: 1;
   opacity: 0.6;
-  background-image: url('images/ngc7822.jpg');
+  background-image: url('images/dubrovnik.jpg');
   background-repeat: no-repeat;
   background-position: 50% 0;
   -ms-background-size: cover;
@@ -42,11 +78,75 @@ p.text-center {
   -webkit-background-size: cover;
   background-size: cover;
 }
-.profile {
-  width: 60%;
-  height: auto;
-  margin: 20% 0% 0% 20%;
-}
+
+/* Profile Section Styles */
 .about {
-  margin: 20% 20% 0% 0%;
+  background-color: #a1cee7; /*#78baef #88beef*/
+  color: #fff;
+  padding-bottom: 50px;
+}
+.about h2 {
+  font-size: 48px;
+  margin-bottom: 75px;
+}
+.profile {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.about-text {
+  width: 90%;
+  height: auto;
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+/* Project Section Styles */
+.projects {
+  color: #3e5b7a;
+  padding-bottom: 50px;
+}
+.projects h2 {
+  font-size: 48px;
+  margin-bottom: 75px;
+}
+.projects-box {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  background-color: #333;
+}
+
+/* Contact Section Styles */
+.contact {
+  background-color: #a1cee7; /*#88beef*/
+  color: #fff;
+  padding-bottom: 50px;
+}
+.contact h2 {
+  font-size: 48px;
+  margin-bottom: 75px;
+}
+.form {
+  background-color: #3e5b7a !important;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.icons {
+  font-size: 64px;
+  margin-top: 100px;
+}
+.icons i {
+  margin-right: 30px;
+}
+.icons i:hover{
+  color: #3e5b7a;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #3e5b7a;
+  color: #fff;
+  min-height: 35px;
+  padding: 15px 0;
 }
